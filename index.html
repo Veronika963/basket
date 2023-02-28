@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>Basket</title>
+    </head>
+
+    <body class="dimmer">
+        <div class="basket-cart">
+            <img src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/shopping_basket.png" alt="basket" class="img-basket">
+            <div class="price-products">
+                <div class="price col-sm-9">0</div>
+                <div class="number-of-goods col-sm-9">
+                    <h4>Кількість:</h4>
+                    <button class="btn btn-primary btn-minus">-</button>
+                    <h3 class="number-text">1</h3>
+                    <button class="btn btn-primary btn-plus">+</button>
+                </div>
+                <div class="input-form-control col-sm-9 input">
+                    <h4>Ціна за один товар:</h4>
+                    <input type="number" class="form-control input-price">
+                </div>
+                <div class="col-sm-9 input">
+                    <button class="btn btn-primary payment-btn">Розрахувати</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal-window">
+            <p class="modal-text">В ваш кошик додано ще 1 товар</p>
+            <div class="modal-button">
+                <button class="btn-ok">Ok</button>
+            </div>
+        </div>
+
+        <script src="./script/main.js"></script>
+    </body>
+
+</html>
